@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "nonidentitybridge",
+  "version": "${version}",
+  "name": "NoN Identity Bridge",
+  "description": "Hace que Needs of Nature trate a un jugador/IA morfeado con Identity2 como el mob en el que se transformó.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.nonidbridge.NonIdentityBridge"]
+  },
+  "mixins": ["nonidentitybridge.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "needsofnature": "*",
+    "identity2": "*"
+  }
+}

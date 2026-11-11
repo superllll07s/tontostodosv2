@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "com.nonidbridge.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ActorCompatibilityMixin",
+    "McaCompatPlayerRigMixin",
+    "AnimationDefinitionsMixin"
+  ],
+  "client": [
+    "RenderDispatcherMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}
